@@ -30,7 +30,7 @@ futures = "0.3"
 thiserror = "1.0"
 # Waiting for https://github.com/JoyMoe/archiver-rs/pull/6
 archiver-rs = { git = "https://github.com/gz/archiver-rs.git", branch = "patch-1" }
-sqlx_tokio = { version = "0.6", features = [
+sqlx_tokio = { version = "0.8", features = [
     "runtime-tokio-rustls",
     "postgres",
     "migrate",
